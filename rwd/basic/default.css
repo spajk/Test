@@ -179,11 +179,13 @@
 	#banner
 	{
 		padding-top: 5em;
+		text-align: center;
 	}
 
 	#banner img {
 		/*width: 1200px;*/
 		width:100%;
+		max-width:1200px;
 	}
 
 /*********************************************************************************/
