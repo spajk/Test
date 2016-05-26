@@ -4,13 +4,20 @@
     background: #e90000;
     line-height: 0em;
     float: left;
-    width: 16%;
-    min-height: 5em;
-    margin: 0 0.666% 0.666% 0;
+    width: 33%;
+    /*min-height: 5em;*/
+    margin: 0 0.2% 0.2% 0;
 }
 
-.thumbnail:nth-child(6n) {
-    margin-right: 0;
+@media screen and (min-width:800px) and (max-width:1200px) {
+    .thumbnail {
+        width:24.8%;
+    }
+}
+
+.thumbnail img {
+  width:100%;
+  max-width:303px;
 }
 
 /* implement media queries to
